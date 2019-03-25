@@ -1,0 +1,38 @@
+*{
+font-family:Monaco, ’DejaVuSansMono’,monospace;
+ }
+
+ h1{
+ color:blue;
+ }
+
+ h3{
+ font-size:20px;
+ }
+
+ p > a{
+ font-weight:bold;
+ text-decoration:none;
+ }
+
+#main-menu{
+ font-size:18px;
+ list-style:none;
+padding:0px;
+}
+
+ #main-menu li {
+ display : inline ;
+ margin : 0 50px 0 0;
+ }
+
+ #main-menu li a {
+  border: 2px solid #0000ff;
+text-decoration:none;
+}
+
+.selected { 
+   background-color:blue;
+   color:white;
+}
+
